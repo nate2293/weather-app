@@ -11,7 +11,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('weather', [WeatherController::class, 'index'])
-    ->name('weather.index');
+        ->name('weather.index');
 });
 
 require __DIR__.'/settings.php';

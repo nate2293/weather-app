@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Illuminate\View\View;
 
 class WeatherController extends Controller
 {
-    public function index(Request $request)
+    public function index(Request $request): View|RedirectResponse
     {
         $validated = $request->validate([
             'city' => 'nullable|string|max:255',
