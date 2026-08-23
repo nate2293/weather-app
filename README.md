@@ -25,9 +25,6 @@
 
 ## 💡 Overview
 
-Weather App is an interactive weather dashboard.
-
-## 💡 Overview
 Weather App is an interactive weather dashboard built with Laravel, designed to allow users to search for a location and view current and forecast weather information.
 
 The application integrates with the OpenWeather API to retrieve real-time weather and forecast data including temperature, weather conditions, humidity, wind speed, minimum and maximum temperatures, sunrise and sunset times.
@@ -67,7 +64,6 @@ The project focuses on third-party API integration, working with JSON data, Lara
 ---
 
 ## 🙏 Credits
-
 
 ### Mary UI
 
