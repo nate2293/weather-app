@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
         stroke: {
-            curve: "smooth",
+            curve: "straight",
         },
 
         fill: {
