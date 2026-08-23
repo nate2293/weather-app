@@ -1,9 +1,5 @@
 <div align="center">
 
-<a href="https://github.com/nate2293/weather-app" target="_blank">
-    <img src="./docs/images/weather.png" width="90" alt="Weather App Logo" />
-</a>
-
 # 🌤️ Weather App
 
 **Weather App Laravel**
